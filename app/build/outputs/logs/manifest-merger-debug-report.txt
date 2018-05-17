@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\6ff78169095eae5b609b2e36426eabc0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1adf5f264eee4b5e774c324091f6f0be\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\e9193a69dc6d16f1a537fd465d828400\AndroidManifest.xml:17:1-32:12
@@ -19,20 +19,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\mor33\.grad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e7b9b8fba764feb20ee8a907a02a72e2\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3af9e3598e5d261b16398bb773a59e3c\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a907cae303595a9d6b1d1c8dbef962ce\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:2:11-69
@@ -57,7 +57,7 @@ MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\mor33\.g
 	android:name
 		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:12:22-76
 application
-ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:14:5-42:19
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:14:5-39:19
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\6ff78169095eae5b609b2e36426eabc0\AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\6ff78169095eae5b609b2e36426eabc0\AndroidManifest.xml:7:5-11:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\mor33\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1adf5f264eee4b5e774c324091f6f0be\AndroidManifest.xml:25:5-29:19
@@ -93,7 +93,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\mor33\.gradle\caches
 	android:label
 		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:18:9-48
 	android:icon
 		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
@@ -101,27 +101,33 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\mor33\.gradle\caches
 	android:theme
 		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:20:9-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:29:9-31:55
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:21:9-23:55
 	android:value
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:31:13-52
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:23:13-52
 	android:name
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:30:13-58
-activity#com.soft.clydas.aupark.MapsActivity
-ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:33:9-41:20
-	android:label
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:22:13-58
+activity#com.soft.clydas.aupark.SplashScreen
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:24:9-31:20
 	android:name
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:34:13-41
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:36:13-40:29
-action#android.intent.action.MAIN
-ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:37:17-69
-	android:name
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:37:25-66
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:27:13-30:29
 category#android.intent.category.LAUNCHER
-ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:28:27-74
+action#android.intent.action.MAIN
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:29:25-66
+activity#com.soft.clydas.aupark.MapsActivity
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:32:9-38:20
+	android:label
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:33:13-41
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml:35:13-37:29
 uses-sdk
 INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Android\Projects\AuPark\app\src\main\AndroidManifest.xml

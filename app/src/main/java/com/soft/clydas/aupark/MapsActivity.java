@@ -69,7 +69,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         gMap = googleMap;
         retrieveFileFromUrl();
-       // retrieveFileLocally();
+        // retrieveFileLocally();
         // Add a marker in Sydney and move the camera
         LatLng klaipeda = new LatLng(55.703713, 21.136601);
         CameraUpdate manoVieta = CameraUpdateFactory.newLatLngZoom(klaipeda, 15);
@@ -84,6 +84,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         criteria.setAccuracy(Criteria.ACCURACY_FINE);
         criteria.setPowerRequirement(Criteria.POWER_HIGH);
         String provider = locationManager.getBestProvider(criteria, true);
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         locationManager.requestLocationUpdates(provider, 10000, 10, this);
     }
 
@@ -108,17 +118,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if (checkSelfPermission(android.Manifest.permission.ACCESS_COARSE_LOCATION)
                 == PackageManager.PERMISSION_GRANTED || checkSelfPermission(android.Manifest.permission.ACCESS_FINE_LOCATION)
                 == PackageManager.PERMISSION_GRANTED) {
-            Log.v("mylog", "Permission is granted");
+            Log.v("mylog", "Leidimas suteiktas");
             return true;
         } else {
-            Log.v("mylog", "Permission not granted");
+            Log.v("mylog", "Leidimas nesuteiktas");
             return false;
         }
     }
 
     @Override
     public boolean onMyLocationButtonClick() {
-        Toast.makeText(this, "MyLocation button clicked", Toast.LENGTH_SHORT).show();
+        if(isLocationEnabled() == false)
+            Toast.makeText(this, "Tiksli buvimo vieta nerasta, patikrinkite ar vietovės nustatymas yra įjungtas", Toast.LENGTH_SHORT).show();
         // Return false so that we don't consume the event and the default behavior still occurs
         // (the camera animates to the user's current position).
         return false;
@@ -126,7 +137,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onMyLocationClick(@NonNull Location location) {
-        Toast.makeText(this, "Current location:\n" + location, Toast.LENGTH_LONG).show();
+       // Šitas metodas parodo, dabartine vieta koordinatėmis
+        // Toast.makeText(this, "Dabartinė vieta:\n" + location, Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -186,14 +198,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void showAlert(final int status) {
         String message, title, btnText;
         if (status == 1) {
-            message = "Your Locations Settings is set to 'Off'.\nPlease Enable Location to " +
-                    "use this app";
-            title = "Enable Location";
-            btnText = "Location Settings";
+            message = "Jūsų vietovės nustatymai yra išjungti.\nPrašome įjungti vietovės nustatymą " +
+                    "norint naudotis visomis šios programėlės funkcijomis.";
+            title = "Įgalinkite vietovę";
+            btnText = "Vietos Nustatymai";
         } else {
-            message = "Please allow this app to access location!";
-            title = "Permission access";
-            btnText = "Grant";
+            message = "Prašome leisti šiai programėlei naudoti vietovės nustatymą!";
+            title = "Leidimas";
+            btnText = "Leisti";
         }
         final AlertDialog.Builder dialog = new AlertDialog.Builder(this);
         dialog.setCancelable(false);
@@ -209,7 +221,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             requestPermissions(PERMISSIONS, PERMISSION_ALL);
                     }
                 })
-                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                .setNegativeButton("Atšaukti", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface paramDialogInterface, int paramInt) {
                         paramDialogInterface.dismiss();
@@ -273,14 +285,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 KmlLayer kmlLayer = new KmlLayer(gMap, new ByteArrayInputStream(byteArr),
                         getApplicationContext());
                 kmlLayer.addLayerToMap();
-                kmlLayer.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
+
+                // Metodas išmeta, Toast texta ir parašo žymeklio pavadinima
+                /* kmlLayer.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
                     @Override
+
                     public void onFeatureClick(Feature feature) {
                         Toast.makeText(MapsActivity.this,
                                 "Feature clicked: " + feature.getId(),
                                 Toast.LENGTH_SHORT).show();
                     }
-                });
+                })*/
 
             } catch (XmlPullParserException e) {
                 e.printStackTrace();

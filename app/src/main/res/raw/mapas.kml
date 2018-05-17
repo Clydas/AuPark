@@ -8,7 +8,7 @@
         <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
-          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_green_25x18.png</href>
+          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_green25x18.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -19,12 +19,12 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="zaliasZymeklis">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
-          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_green_25x18.png</href>
+          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_green25x25.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -32,9 +32,79 @@
         <scale>1</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
+        <text><![CDATA[<h3>
+          Šio parkomato kainos yra: <br />
+          (nuo 05-01 iki 09-15) <br /> 
+          1 val - 0.30 Eur <br /> 
+          10 val  - 3.00 Eur</h3>]]></text>
       </BalloonStyle>
     </Style>
+	
+	<Style id="geltonasZymeklis">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_yellow25x25.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>
+          Šio parkomato kainos yra: <br />
+          30 min - 0.30 Eur <br /> 
+          1 val - 0.60 Eur <br /> 
+          10 val  - 6.00 Eur</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+	
+	
+	<Style id="melynasZymeklis">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_blue25x25.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>
+          Šio parkomato kainos yra: <br />
+          2 val - 0.30 Eur<br /> 
+          10 val  - 1.50 Eur</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+	
+	
+	<Style id="raudonasZymeklis">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_red25x25.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>
+          Šio parkomato kainos yra: <br />
+          20 min  - 0.30 Eur <br /> 
+          1 val - 0.90 Eur <br /> 
+          10 val  - 9.00 Eur <br /> 
+          14 val  - 12.60 Eur</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+	
     <StyleMap id="icon-1899-0288D1-nodesc">
       <Pair>
         <key>normal</key>
@@ -50,7 +120,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_yellow_25x18.png</href>
+          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_yellow18x25.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -66,7 +136,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_yellow_25x18.png</href>
+          <href>https://sites.google.com/site/manokmlfile/ikonos/icon_yellow18x25.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -1518,7 +1588,7 @@
       <name>zalios zonos parkomatai.xlsx</name>
       <Placemark>
         <name>21.091858,55.737486</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.091858,55.737486,0
@@ -1527,7 +1597,7 @@
       </Placemark>
       <Placemark>
         <name>21.088333,55.738713</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.088333,55.738713,0
@@ -1536,7 +1606,7 @@
       </Placemark>
       <Placemark>
         <name>21.091381,55.739911</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.091381,55.739911,0
@@ -1545,7 +1615,7 @@
       </Placemark>
       <Placemark>
         <name>21.087567,55.758601</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.087567,55.758601,0
@@ -1554,7 +1624,7 @@
       </Placemark>
       <Placemark>
         <name>21.087695,55.758561</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.087695,55.758561,0
@@ -1563,7 +1633,7 @@
       </Placemark>
       <Placemark>
         <name>21.087318,55.761744</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.087318,55.761744,0
@@ -1572,7 +1642,7 @@
       </Placemark>
       <Placemark>
         <name>21.087126,55.761763</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.087126,55.761763,0
@@ -1581,7 +1651,7 @@
       </Placemark>
       <Placemark>
         <name>21.086586,55.766133</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.086586,55.766133,0
@@ -1590,7 +1660,7 @@
       </Placemark>
       <Placemark>
         <name>21.083128,55.771641</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.083128,55.771641,0
@@ -1599,7 +1669,7 @@
       </Placemark>
       <Placemark>
         <name>21.081698,55.775592</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#zaliasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.081698,55.775592,0
@@ -1611,7 +1681,7 @@
       <name>raudona.xlsx</name>
       <Placemark>
         <name>21.107584,55.711901</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.107584,55.711901,0
@@ -1620,7 +1690,7 @@
       </Placemark>
       <Placemark>
         <name>21.111613,55.705693</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.111613,55.705693,0
@@ -1629,7 +1699,7 @@
       </Placemark>
       <Placemark>
         <name>21.112972,55.678754</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.112972,55.678754,0
@@ -1638,7 +1708,7 @@
       </Placemark>
       <Placemark>
         <name>21.129193,55.685026</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.129193,55.685026,0
@@ -1647,7 +1717,7 @@
       </Placemark>
       <Placemark>
         <name>21.124698, 55.7057919</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.124698,55.7057919,0
@@ -1656,7 +1726,7 @@
       </Placemark>
       <Placemark>
         <name>21.1243818, 55.7068163</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.1243818,55.7068163,0
@@ -1665,7 +1735,7 @@
       </Placemark>
       <Placemark>
         <name>21.128054,55.708547</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.128054,55.708547,0
@@ -1674,7 +1744,7 @@
       </Placemark>
       <Placemark>
         <name>21.136686,55.703427</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.136686,55.703427,0
@@ -1683,7 +1753,7 @@
       </Placemark>
       <Placemark>
         <name>21.134851,55.704549</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134851,55.704549,0
@@ -1692,7 +1762,7 @@
       </Placemark>
       <Placemark>
         <name>21.135527,55.705112</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.135527,55.705112,0
@@ -1701,7 +1771,7 @@
       </Placemark>
       <Placemark>
         <name>21.136372,55.705939</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.136372,55.705939,0
@@ -1710,7 +1780,7 @@
       </Placemark>
       <Placemark>
         <name>21.137048,55.706781</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.137048,55.706781,0
@@ -1719,7 +1789,7 @@
       </Placemark>
       <Placemark>
         <name>21.138158,55.706761</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.138158,55.706761,0
@@ -1728,7 +1798,7 @@
       </Placemark>
       <Placemark>
         <name>21.137705,55.708059</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.137705,55.708059,0
@@ -1737,7 +1807,7 @@
       </Placemark>
       <Placemark>
         <name>21.136726,55.709885</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.136726,55.709885,0
@@ -1746,7 +1816,7 @@
       </Placemark>
       <Placemark>
         <name>21.136292,55.709135</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.136292,55.709135,0
@@ -1755,7 +1825,7 @@
       </Placemark>
       <Placemark>
         <name>21.135573,55.709367</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.135573,55.709367,0
@@ -1764,7 +1834,7 @@
       </Placemark>
       <Placemark>
         <name>21.134588,55.710036</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134588,55.710036,0
@@ -1773,7 +1843,7 @@
       </Placemark>
       <Placemark>
         <name>21.134932,55.710077</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134932,55.710077,0
@@ -1782,7 +1852,7 @@
       </Placemark>
       <Placemark>
         <name>21.133022,55.706501</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133022,55.706501,0
@@ -1791,7 +1861,7 @@
       </Placemark>
       <Placemark>
         <name>21.132685,55.707323</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.132685,55.707323,0
@@ -1800,7 +1870,7 @@
       </Placemark>
       <Placemark>
         <name>21.133595,55.707613</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133595,55.707613,0
@@ -1809,7 +1879,7 @@
       </Placemark>
       <Placemark>
         <name>21.134623,55.70681</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134623,55.70681,0
@@ -1818,7 +1888,7 @@
       </Placemark>
       <Placemark>
         <name>21.134595,55.707516</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134595,55.707516,0
@@ -1827,7 +1897,7 @@
       </Placemark>
       <Placemark>
         <name>21.135950,55.708330</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.13595,55.70833,0
@@ -1836,7 +1906,7 @@
       </Placemark>
       <Placemark>
         <name>21.136068,55.707811</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.136068,55.707811,0
@@ -1845,7 +1915,7 @@
       </Placemark>
       <Placemark>
         <name>21.134935,55.708333</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134935,55.708333,0
@@ -1854,7 +1924,7 @@
       </Placemark>
       <Placemark>
         <name>21.134453,55.708619</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134453,55.708619,0
@@ -1863,7 +1933,7 @@
       </Placemark>
       <Placemark>
         <name>21.134489,55.708796</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134489,55.708796,0
@@ -1872,7 +1942,7 @@
       </Placemark>
       <Placemark>
         <name>21.132846,55.709630</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.132846,55.70963,0
@@ -1881,7 +1951,7 @@
       </Placemark>
       <Placemark>
         <name>21.131060,55.708678</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.13106,55.708678,0
@@ -1890,7 +1960,7 @@
       </Placemark>
       <Placemark>
         <name>21.132269,55.708670</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.132269,55.70867,0
@@ -1899,7 +1969,7 @@
       </Placemark>
       <Placemark>
         <name>21.133165,55.709071</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133165,55.709071,0
@@ -1908,7 +1978,7 @@
       </Placemark>
       <Placemark>
         <name>21.133203,55.708889</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133203,55.708889,0
@@ -1917,7 +1987,7 @@
       </Placemark>
       <Placemark>
         <name>21.133723,55.708811</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133723,55.708811,0
@@ -1926,7 +1996,7 @@
       </Placemark>
       <Placemark>
         <name>21.131998,55.708102</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.131998,55.708102,0
@@ -1935,7 +2005,7 @@
       </Placemark>
       <Placemark>
         <name>21.132521,55.708154</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.132521,55.708154,0
@@ -1944,7 +2014,7 @@
       </Placemark>
       <Placemark>
         <name>21.132921,55.707882</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.132921,55.707882,0
@@ -1953,7 +2023,7 @@
       </Placemark>
       <Placemark>
         <name>21.133328,55.708181</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#raudonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133328,55.708181,0
@@ -1965,7 +2035,7 @@
       <name>geltona.xlsx</name>
       <Placemark>
         <name>21.130816, 55.709828</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.130816,55.709828,0
@@ -1974,7 +2044,7 @@
       </Placemark>
       <Placemark>
         <name>21.129222, 55.710890</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.129222,55.71089,0
@@ -1983,7 +2053,7 @@
       </Placemark>
       <Placemark>
         <name>21.130493, 55.711259</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.130493,55.711259,0
@@ -1992,7 +2062,7 @@
       </Placemark>
       <Placemark>
         <name>21.130064, 55.711543</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.130064,55.711543,0
@@ -2001,7 +2071,7 @@
       </Placemark>
       <Placemark>
         <name>21.130688, 55.712169</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.130688,55.712169,0
@@ -2010,7 +2080,7 @@
       </Placemark>
       <Placemark>
         <name>21.129953, 55.712352</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.129953,55.712352,0
@@ -2019,7 +2089,7 @@
       </Placemark>
       <Placemark>
         <name>21.128878, 55.711778</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.128878,55.711778,0
@@ -2028,7 +2098,7 @@
       </Placemark>
       <Placemark>
         <name>21.126454, 55.712431</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.126454,55.712431,0
@@ -2037,7 +2107,7 @@
       </Placemark>
       <Placemark>
         <name>21.127138, 55.711884</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.127138,55.711884,0
@@ -2046,7 +2116,7 @@
       </Placemark>
       <Placemark>
         <name>21.125126, 55.713509</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.125126,55.713509,0
@@ -2055,7 +2125,7 @@
       </Placemark>
       <Placemark>
         <name>21.124613, 55.713305</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.124613,55.713305,0
@@ -2064,7 +2134,7 @@
       </Placemark>
       <Placemark>
         <name>21.125530, 55.712480</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.12553,55.71248,0
@@ -2073,7 +2143,7 @@
       </Placemark>
       <Placemark>
         <name>21.126195, 55.710960</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.126195,55.71096,0
@@ -2082,7 +2152,7 @@
       </Placemark>
       <Placemark>
         <name>21.127784, 55.712653</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.127784,55.712653,0
@@ -2091,7 +2161,7 @@
       </Placemark>
       <Placemark>
         <name>21.126819, 55.713208</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.126819,55.713208,0
@@ -2100,7 +2170,7 @@
       </Placemark>
       <Placemark>
         <name>21.128872, 55.713197</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.128872,55.713197,0
@@ -2109,7 +2179,7 @@
       </Placemark>
       <Placemark>
         <name>21.127523, 55.714360</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.127523,55.71436,0
@@ -2118,7 +2188,7 @@
       </Placemark>
       <Placemark>
         <name>21.124996, 55.714082</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.124996,55.714082,0
@@ -2127,7 +2197,7 @@
       </Placemark>
       <Placemark>
         <name>21.126380, 55.714638</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.12638,55.714638,0
@@ -2136,7 +2206,7 @@
       </Placemark>
       <Placemark>
         <name>21.123240, 55.713735</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.12324,55.713735,0
@@ -2145,7 +2215,7 @@
       </Placemark>
       <Placemark>
         <name>21.122811, 55.713894</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.122811,55.713894,0
@@ -2154,7 +2224,7 @@
       </Placemark>
       <Placemark>
         <name>21.122206, 55.715107</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.122206,55.715107,0
@@ -2163,7 +2233,7 @@
       </Placemark>
       <Placemark>
         <name>21.120311, 55.715810</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.120311,55.71581,0
@@ -2172,7 +2242,7 @@
       </Placemark>
       <Placemark>
         <name>21.118832, 55.717889</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.118832,55.717889,0
@@ -2181,7 +2251,7 @@
       </Placemark>
       <Placemark>
         <name>21.122482, 55.720069</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.122482,55.720069,0
@@ -2190,7 +2260,7 @@
       </Placemark>
       <Placemark>
         <name>21.122912, 55.719015</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.122912,55.719015,0
@@ -2199,7 +2269,7 @@
       </Placemark>
       <Placemark>
         <name>21.125453, 55.718898</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.125453,55.718898,0
@@ -2208,7 +2278,7 @@
       </Placemark>
       <Placemark>
         <name>21.121247, 55.718605</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.121247,55.718605,0
@@ -2217,7 +2287,7 @@
       </Placemark>
       <Placemark>
         <name>21.122135, 55.718085</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.122135,55.718085,0
@@ -2226,7 +2296,7 @@
       </Placemark>
       <Placemark>
         <name>21.123590, 55.717192</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.12359,55.717192,0
@@ -2235,7 +2305,7 @@
       </Placemark>
       <Placemark>
         <name>21.125313, 55.716149</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.125313,55.716149,0
@@ -2244,7 +2314,7 @@
       </Placemark>
       <Placemark>
         <name>21.125104, 55.718221</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.125104,55.718221,0
@@ -2253,7 +2323,7 @@
       </Placemark>
       <Placemark>
         <name>21.126707, 55.716793</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.126707,55.716793,0
@@ -2262,7 +2332,7 @@
       </Placemark>
       <Placemark>
         <name>21.127727, 55.715827</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.127727,55.715827,0
@@ -2271,7 +2341,7 @@
       </Placemark>
       <Placemark>
         <name>21.128197, 55.718829</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.128197,55.718829,0
@@ -2280,7 +2350,7 @@
       </Placemark>
       <Placemark>
         <name>21.128524, 55.718341</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.128524,55.718341,0
@@ -2289,7 +2359,7 @@
       </Placemark>
       <Placemark>
         <name>21.129822, 55.718075</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.129822,55.718075,0
@@ -2298,7 +2368,7 @@
       </Placemark>
       <Placemark>
         <name>21.129834, 55.717399</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.129834,55.717399,0
@@ -2307,7 +2377,7 @@
       </Placemark>
       <Placemark>
         <name>21.130068, 55.716576</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.130068,55.716576,0
@@ -2316,7 +2386,7 @@
       </Placemark>
       <Placemark>
         <name>21.131619, 55.718681</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.131619,55.718681,0
@@ -2325,7 +2395,7 @@
       </Placemark>
       <Placemark>
         <name>21.134575, 55.719964</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134575,55.719964,0
@@ -2334,7 +2404,7 @@
       </Placemark>
       <Placemark>
         <name>21.136321, 55.718992</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.136321,55.718992,0
@@ -2343,7 +2413,7 @@
       </Placemark>
       <Placemark>
         <name>21.134480, 55.719118</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.13448,55.719118,0
@@ -2352,7 +2422,7 @@
       </Placemark>
       <Placemark>
         <name>21.133576, 55.718598</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133576,55.718598,0
@@ -2361,7 +2431,7 @@
       </Placemark>
       <Placemark>
         <name>21.134300, 55.718258</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.1343,55.718258,0
@@ -2370,7 +2440,7 @@
       </Placemark>
       <Placemark>
         <name>21.134247, 55.717390</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134247,55.71739,0
@@ -2379,7 +2449,7 @@
       </Placemark>
       <Placemark>
         <name>21.132265, 55.716422</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.132265,55.716422,0
@@ -2388,7 +2458,7 @@
       </Placemark>
       <Placemark>
         <name>21.134952, 55.716201</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134952,55.716201,0
@@ -2397,7 +2467,7 @@
       </Placemark>
       <Placemark>
         <name>21.135944, 55.715244</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.135944,55.715244,0
@@ -2406,7 +2476,7 @@
       </Placemark>
       <Placemark>
         <name>21.137620, 55.714413</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.13762,55.714413,0
@@ -2415,7 +2485,7 @@
       </Placemark>
       <Placemark>
         <name>21.138471, 55.713781</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.138471,55.713781,0
@@ -2424,7 +2494,7 @@
       </Placemark>
       <Placemark>
         <name>21.139884, 55.714159</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.139884,55.714159,0
@@ -2433,7 +2503,7 @@
       </Placemark>
       <Placemark>
         <name>21.141925, 55.714959</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.141925,55.714959,0
@@ -2442,7 +2512,7 @@
       </Placemark>
       <Placemark>
         <name>21.140694, 55.713253</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.140694,55.713253,0
@@ -2451,7 +2521,7 @@
       </Placemark>
       <Placemark>
         <name>21.142161, 55.713714</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.142161,55.713714,0
@@ -2460,7 +2530,7 @@
       </Placemark>
       <Placemark>
         <name>21.136620, 55.712579</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.13662,55.712579,0
@@ -2469,7 +2539,7 @@
       </Placemark>
       <Placemark>
         <name>21.135270, 55.711433</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.13527,55.711433,0
@@ -2478,7 +2548,7 @@
       </Placemark>
       <Placemark>
         <name>21.133828, 55.711068</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133828,55.711068,0
@@ -2487,7 +2557,7 @@
       </Placemark>
       <Placemark>
         <name>21.132981, 55.712086</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.132981,55.712086,0
@@ -2496,7 +2566,7 @@
       </Placemark>
       <Placemark>
         <name>21.133890, 55.712228</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.13389,55.712228,0
@@ -2505,7 +2575,7 @@
       </Placemark>
       <Placemark>
         <name>21.135167, 55.712652</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.135167,55.712652,0
@@ -2514,7 +2584,7 @@
       </Placemark>
       <Placemark>
         <name>21.136812, 55.713328</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.136812,55.713328,0
@@ -2523,7 +2593,7 @@
       </Placemark>
       <Placemark>
         <name>21.135643, 55.713417</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.135643,55.713417,0
@@ -2532,7 +2602,7 @@
       </Placemark>
       <Placemark>
         <name>21.132296, 55.712535</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.132296,55.712535,0
@@ -2541,7 +2611,7 @@
       </Placemark>
       <Placemark>
         <name>21.133344, 55.713848</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133344,55.713848,0
@@ -2550,7 +2620,7 @@
       </Placemark>
       <Placemark>
         <name>21.134012, 55.713875</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134012,55.713875,0
@@ -2559,7 +2629,7 @@
       </Placemark>
       <Placemark>
         <name>21.134885, 55.714219</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.134885,55.714219,0
@@ -2568,7 +2638,7 @@
       </Placemark>
       <Placemark>
         <name>21.133564, 55.715927</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133564,55.715927,0
@@ -2577,7 +2647,7 @@
       </Placemark>
       <Placemark>
         <name>21.131625, 55.715077</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.131625,55.715077,0
@@ -2586,7 +2656,7 @@
       </Placemark>
       <Placemark>
         <name>21.130547, 55.715726</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.130547,55.715726,0
@@ -2595,7 +2665,7 @@
       </Placemark>
       <Placemark>
         <name>21.130885, 55.714871</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.130885,55.714871,0
@@ -2604,7 +2674,7 @@
       </Placemark>
       <Placemark>
         <name>21.138479, 55.704945</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.138479,55.704945,0
@@ -2613,7 +2683,7 @@
       </Placemark>
       <Placemark>
         <name>21.139729, 55.703180</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.139729,55.70318,0
@@ -2622,7 +2692,7 @@
       </Placemark>
       <Placemark>
         <name>21.142568, 55.702965</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.142568,55.702965,0
@@ -2631,7 +2701,7 @@
       </Placemark>
       <Placemark>
         <name>21.142815, 55.704142</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.142815,55.704142,0
@@ -2640,7 +2710,7 @@
       </Placemark>
       <Placemark>
         <name>21.140869, 55.705775</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.140869,55.705775,0
@@ -2649,7 +2719,7 @@
       </Placemark>
       <Placemark>
         <name>21.1457137, 55.7065852</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.1457137,55.7065852,0
@@ -2658,7 +2728,7 @@
       </Placemark>
       <Placemark>
         <name>21.147624, 55.704518</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.147624,55.704518,0
@@ -2667,7 +2737,7 @@
       </Placemark>
       <Placemark>
         <name>21.149588, 55.705284</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.149588,55.705284,0
@@ -2676,7 +2746,7 @@
       </Placemark>
       <Placemark>
         <name>21.142143, 55.708230</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.142143,55.70823,0
@@ -2685,7 +2755,7 @@
       </Placemark>
       <Placemark>
         <name>21.144943, 55.70992</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.144943,55.70992,0
@@ -2694,7 +2764,7 @@
       </Placemark>
       <Placemark>
         <name>21.149579, 55.708180</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.149579,55.70818,0
@@ -2703,7 +2773,7 @@
       </Placemark>
       <Placemark>
         <name>21.150645, 55.706465</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.150645,55.706465,0
@@ -2712,7 +2782,7 @@
       </Placemark>
       <Placemark>
         <name>21.147384, 55.706217</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#geltonasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.147384,55.706217,0
@@ -3178,7 +3248,7 @@
       <name>melyna.xlsx</name>
       <Placemark>
         <name>21.126118, 55.705778</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.126118,55.705778,0
@@ -3187,7 +3257,7 @@
       </Placemark>
       <Placemark>
         <name>21.129117, 55.7075972</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.129117,55.7075972,0
@@ -3196,7 +3266,7 @@
       </Placemark>
       <Placemark>
         <name>21.122320, 55.713627</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.12232,55.713627,0
@@ -3205,7 +3275,7 @@
       </Placemark>
       <Placemark>
         <name>21.119092, 55.718611</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.119092,55.718611,0
@@ -3214,7 +3284,7 @@
       </Placemark>
       <Placemark>
         <name>21.125215, 55.720508</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.125215,55.720508,0
@@ -3223,7 +3293,7 @@
       </Placemark>
       <Placemark>
         <name>21.126285, 55.719336</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.126285,55.719336,0
@@ -3232,7 +3302,7 @@
       </Placemark>
       <Placemark>
         <name>21.136745, 55.719591</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.136745,55.719591,0
@@ -3241,7 +3311,7 @@
       </Placemark>
       <Placemark>
         <name>21.142223, 55.705810</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.142223,55.70581,0
@@ -3250,7 +3320,7 @@
       </Placemark>
       <Placemark>
         <name>21.146046, 55.706110</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.146046,55.70611,0
@@ -3259,7 +3329,7 @@
       </Placemark>
       <Placemark>
         <name>21.140846, 55.707465</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.140846,55.707465,0
@@ -3268,7 +3338,7 @@
       </Placemark>
       <Placemark>
         <name>21.146332, 55.710799</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.146332,55.710799,0
@@ -3277,7 +3347,7 @@
       </Placemark>
       <Placemark>
         <name>21.131086, 55.706387</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.131086,55.706387,0
@@ -3286,7 +3356,7 @@
       </Placemark>
       <Placemark>
         <name>21.131547, 55.705614</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.131547,55.705614,0
@@ -3295,7 +3365,7 @@
       </Placemark>
       <Placemark>
         <name>21.133371, 55.705449</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.133371,55.705449,0
@@ -3304,7 +3374,7 @@
       </Placemark>
       <Placemark>
         <name>21.137450, 55.705168</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.13745,55.705168,0
@@ -3313,7 +3383,7 @@
       </Placemark>
       <Placemark>
         <name>21.119586, 55.719040</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.119586,55.71904,0
@@ -3322,7 +3392,7 @@
       </Placemark>
       <Placemark>
         <name>21.137205, 55.709427</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.137205,55.709427,0
@@ -3331,7 +3401,7 @@
       </Placemark>
       <Placemark>
         <name>21.1459457, 55.7065339</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.1459457,55.7065339,0
@@ -3340,7 +3410,7 @@
       </Placemark>
       <Placemark>
         <name>21.126083, 55.709754</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <styleUrl>#melynasZymeklis</styleUrl>
         <Point>
           <coordinates>
             21.126083,55.709754,0

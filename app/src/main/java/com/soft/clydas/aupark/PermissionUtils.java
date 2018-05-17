@@ -71,7 +71,7 @@ public abstract class PermissionUtils {
             return dialog;
         }
 
-        @Override
+        /*@Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             mFinishActivity = getArguments().getBoolean(ARGUMENT_FINISH_ACTIVITY);
 
@@ -79,7 +79,7 @@ public abstract class PermissionUtils {
                     .setMessage(R.string.location_permission_denied)
                     .setPositiveButton(android.R.string.ok, null)
                     .create();
-        }
+        }*/
 
         @Override
         public void onDismiss(DialogInterface dialog) {
